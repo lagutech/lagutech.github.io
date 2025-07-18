@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i ./src/styles.css -o ./public/styles.css --minify",
+    "dev": "npx @tailwindcss/cli -i ./src/styles.css -o ./public/styles.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
