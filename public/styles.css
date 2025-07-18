@@ -206,6 +206,9 @@
   .relative {
     position: relative;
   }
+  .static {
+    position: static;
+  }
   .inset-0 {
     inset: calc(var(--spacing) * 0);
   }
@@ -238,6 +241,9 @@
   }
   .mb-60 {
     margin-bottom: calc(var(--spacing) * 60);
+  }
+  .contents {
+    display: contents;
   }
   .flex {
     display: flex;
